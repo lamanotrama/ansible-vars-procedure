@@ -1,0 +1,4 @@
+group: web
+iam: "[web]: I am {{ inventory_hostname }} of {{ group }}"
+heard: "all says '{{ message }}"
+content: "Wellcome to nginx"

@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  gather_facts: False
+  tasks:
+    - debug: msg="Hello {{ inventory_hostname }}!"
+    - debug: msg="{{ iam }}"
+    - debug: msg="{{ heard }}"
+    - debug: msg="{{ content }}"
+    - debug: var=group_names

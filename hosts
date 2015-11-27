@@ -1,0 +1,14 @@
+[db:children]
+mysql
+
+[mysql]
+localhost
+
+[web]
+localhost
+
+[zz]
+localhost
+
+[00]
+localhost

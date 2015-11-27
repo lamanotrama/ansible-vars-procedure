@@ -1,0 +1,3 @@
+group: all
+iam: "[all]: I am {{ inventory_hostname }} of {{ group }}"
+message: "Good luck"

@@ -1,0 +1,3 @@
+group: db
+iam: "[db]: I am {{ inventory_hostname }} of {{ group }}"
+heard: "all says '{{ message }}'. mysql notifies '{{ notice }}'"
